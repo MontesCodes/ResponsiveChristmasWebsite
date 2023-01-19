@@ -49,6 +49,20 @@
 
   }
 }
+/* ===== BASE ===== */
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  
+}
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 
