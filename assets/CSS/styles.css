@@ -113,6 +113,74 @@ img{
 
 /* Snow animation */
 /*=============== HEADER & NAV ===============*/
+.header{
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+  transition: background .4s;
+
+}
+
+.nav{
+  position: relative;
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo,
+.nav__toggle,
+.nav__close{
+  display: flex;
+  color: var(--white-color);
+}
+
+.nav__log img{
+  width: 30px;
+  transform: rotate(-10deg);
+}
+
+.nav__logo{
+  align-items: center;
+  column-gap: .25rem;
+  font-family: var(--second-font);
+  font-size: var(--h2-font-size);
+}
+
+.nav__toggle{
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .nav__menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--body-color);
+    width: 100%;
+    padding-block: 3.5rem;
+    transition: top .4s;
+  }
+}
+
+
+.nav__list{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 2rem;
+}
+/* Show menu  */
+
+/* Change background header  */
+
+/* Active link  */
+
 
 /*=============== HOME ===============*/
 
