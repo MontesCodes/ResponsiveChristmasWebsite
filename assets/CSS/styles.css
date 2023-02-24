@@ -86,7 +86,32 @@ img{
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
+.container{
+  max-width: 1024px;
+  margin-inline: 1.5rem;
+}
 
+.grid{
+  display: grid;
+  gap: 1.5;
+}
+
+.section{
+  padding-block: 5rem 1rem;
+}
+
+.section__tile{
+  font-size: var(--h1-font-size);
+  font-family: var(--second-font);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.main{
+  overflow: hidden; /* for animations */
+}
+
+/* Snow animation */
 /*=============== HEADER & NAV ===============*/
 
 /*=============== HOME ===============*/
