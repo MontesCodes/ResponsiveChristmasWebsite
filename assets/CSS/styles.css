@@ -226,7 +226,21 @@ img{
 
 
 /*=============== HOME ===============*/
+.home{
+  position: relative;
+  background: linear-gradient(180deg, hsl(210, 88%, 20%), hsl(210, 70%, 58%));
+  height: 650px;
+  padding-top: 7rem;
+  overflow: hidden;
+}
 
+.home__title{
+  color: var(#fff);
+  font-size: var(--biggest-font-size);
+  font-family: var(--second-font);
+  text-align: center;
+  margin-top: 1.5rem;
+}
 /*=============== ABOUT ===============*/
 
 /*=============== BUTTON ===============*/
