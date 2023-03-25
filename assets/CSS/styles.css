@@ -101,7 +101,7 @@ img {
   padding-block: 5rem 1rem;
 }
 
-.section__tile {
+.section__title {
   font-size: var(--h1-font-size);
   font-family: var(--second-font);
   text-align: center;
@@ -299,7 +299,33 @@ img {
   width: 320px;
   justify-self: center;
 }
+
+.about__snow-1,
+.about__snow-2 {
+  width: 50px;
+  position: absolute;
+}
+
+.about__snow-1 {
+  top: 12rem;
+  left: 1.5rem;
+}
+
+.about__snow-2 {
+  right: -0.75rem;
+  bottom: 0.5rem;
+}
+
 /*=============== BUTTON ===============*/
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  padding: 1rem 2rem;
+  border-radius: 4rem;
+  color: var(--white-color);
+  font-weight: var(--font-medium);
+  transition: background 0.4s, box-shadow 0.4s;
+}
 
 /*=============== SEND ===============*/
 
