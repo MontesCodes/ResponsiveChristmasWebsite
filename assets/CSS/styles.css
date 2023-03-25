@@ -113,6 +113,16 @@ img {
 }
 
 /* Snow animation */
+@keyframes animate-snow-1 {
+  0%,
+  100% {
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
 /*=============== HEADER & NAV ===============*/
 .header {
   position: fixed;
@@ -325,6 +335,11 @@ img {
   color: var(--white-color);
   font-weight: var(--font-medium);
   transition: background 0.4s, box-shadow 0.4s;
+}
+
+.button:hover {
+  background-color: var(--first-color-alt);
+  box-shadow: 0 8px 32px hsla(210, 80%, 54%, 0.7);
 }
 
 /*=============== SEND ===============*/
