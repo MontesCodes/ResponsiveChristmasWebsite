@@ -236,7 +236,9 @@ img {
   top: 0;
 }
 /* Change background header  */
-
+.bg-header {
+  background: var(--body-color);
+}
 /* Active link  */
 
 /*=============== HOME ===============*/
