@@ -618,6 +618,30 @@ img {
   .about__data .section__title {
     text-align: initial;
   }
+  .about__img {
+    width: 500px;
+    order: -1;
+  }
+  .about__snow-1 {
+    top: 0;
+    left: 0;
+  }
+  .about__snow-2 {
+    right: 10rem;
+    bottom: 3.5rem;
+  }
+
+  .send__container {
+    grid-template-columns: repeat(3, 220px);
+    column-gap: 7.5rem;
+    padding-top: 3rem;
+  }
+  .send__img {
+    margin-bottom: 1rem;
+  }
+  .send__desciption {
+    font-size: var(--normal-font-size);
+  }
 }
 
 /* For 2K+ resolutions */
