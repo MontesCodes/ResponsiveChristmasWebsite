@@ -551,6 +551,11 @@ img {
   .home__pine {
     width: 330px;
   }
+
+  .about__container {
+    grid-template-columns: 0.6fr;
+    justify-content: center;
+  }
 }
 /* For large devices */
 
