@@ -506,7 +506,7 @@ img {
 }
 /*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar {
-  width: 6rem;
+  width: 0.6rem;
   border-radius: 0.5rem;
   background-color: hsl(210, 8%, 15%);
 }
@@ -700,4 +700,52 @@ img {
   }
 }
 
+@media screen and (min-width: 1064px) {
+  .container {
+    margin-inline: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .home {
+    height: 980px;
+  }
+  .home__title {
+    font-size: var(--biggest-font-size);
+  }
+  .home__mountain-1,
+  .home__mountain-1,
+  .home__mountain-1,
+  .home__snow {
+    width: 100%;
+  }
+  .home__village {
+    width: 750px;
+    bottom: 4rem;
+  }
+  .home__pine {
+    width: 720px;
+    bottom: 12.5rem;
+  }
+  .home__mountain-1,
+  .home__mountain-1 {
+    bottom: -0.5rem;
+  }
+  .home__moon {
+    width: 600px;
+    bottom: 14rem;
+  }
+  .home__trineo {
+    width: 500px;
+    bottom: 28rem;
+  }
+}
+
 /* For 2K+ resolutions */
+@media screen and (min-width: 1700px) {
+  .home {
+    max-width: 1280px;
+    height: 990px;
+    margin-inline: auto;
+  }
+}
